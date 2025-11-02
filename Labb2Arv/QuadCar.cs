@@ -13,10 +13,10 @@ namespace Labb2Arv
         {
             this.isCarStolen = isCarStolen;
         }
-
+       
         public void IsItStolen()
         {
-            if(isCarStolen != true)
+            if (!isCarStolen)
             {
                 Random rnd = new Random();
                 if (rnd.Next(0, 10) < 5)
@@ -25,14 +25,17 @@ namespace Labb2Arv
                 }
                 else
                 {
+                    isCarStolen = true;
                     Console.WriteLine("The QuadCar is Stolen :(");
                 }
-            }else
+            }
+            else
             {
                 Console.WriteLine("The QuadCar is Stolen :(");
             }
 
         }
+
 
 
     }

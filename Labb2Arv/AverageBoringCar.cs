@@ -26,7 +26,7 @@ namespace Labb2Arv
             {
                 Console.WriteLine("Cant drive the {vehicleBrand} is broken");
             }
-            while (carIsBroken != true) 
+            while (!carIsBroken) 
             {
                 Random rnd = new Random();
                 if(rnd.Next(0, 50) < 45)
