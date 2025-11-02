@@ -15,6 +15,7 @@
             Console.WriteLine();
             Console.WriteLine("--- QuadCar ---");
             Console.WriteLine();
+
             QuadcarClass.vehicleInfo();
             QuadcarClass.startEngine();
             QuadcarClass.IsItStolen();
@@ -82,12 +83,6 @@
             SlightlyLessBoringCarClass.DriveCar();
             SlightlyLessBoringCarClass.StopEngine();
             SlightlyLessBoringCarClass.SellCar();
-
-            //menu mainMenuClass = new menu();
-
-            //mainMenuClass.InitClasses();
-            //mainMenuClass.PickVehicle();
-
 
         }
     }
