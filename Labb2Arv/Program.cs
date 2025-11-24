@@ -22,6 +22,7 @@
             QuadcarClass.IsItStolen();
             QuadcarClass.IsItStolen();
             QuadcarClass.StopEngine();
+            QuadcarClass.ParkCar();
             QuadcarClass.SellCar();
 
             Console.WriteLine();
@@ -34,6 +35,7 @@
             ExcevatorClass.DigDirt();
             ExcevatorClass.DigDirt();
             ExcevatorClass.StopEngine();
+            ExcevatorClass.ParkCar();
             ExcevatorClass.SellCar();
 
             Console.WriteLine();
@@ -46,6 +48,7 @@
             HelicopterClass.GetPassenger();
             HelicopterClass.DropOffPassenger();
             HelicopterClass.StopEngine();
+            HelicopterClass.ParkCar();
             HelicopterClass.SellCar();
 
             Console.WriteLine();
@@ -56,6 +59,7 @@
             BoringCarClass.StartEngine();
             BoringCarClass.DriveCar();
             BoringCarClass.StopEngine();
+            BoringCarClass.ParkCar();
             BoringCarClass.SellCar();
 
             Console.WriteLine();
@@ -69,6 +73,7 @@
             DecentlyBoringCarClass.CleanCar();
             DecentlyBoringCarClass.DriveCar();
             DecentlyBoringCarClass.StopEngine();
+            DecentlyBoringCarClass.ParkCar();
             DecentlyBoringCarClass.SellCar();
 
             Console.WriteLine();
@@ -82,6 +87,7 @@
             SlightlyLessBoringCarClass.LookCool();
             SlightlyLessBoringCarClass.DriveCar();
             SlightlyLessBoringCarClass.StopEngine();
+            SlightlyLessBoringCarClass.ParkCar();
             SlightlyLessBoringCarClass.SellCar();
 
         }
