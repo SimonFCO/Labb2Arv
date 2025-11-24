@@ -26,5 +26,10 @@ namespace Labb2Arv
                 Console.WriteLine($"The {vehicleBrand} is already clean | cleanliness :{cleanliness}");
             }
         }
+
+        public override void StartEngine()
+        {
+            Console.WriteLine($"Bilen ({vehicleType}) startar: Vrim Vram Vrom!");
+        }
     }
 }

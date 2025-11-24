@@ -36,6 +36,11 @@ namespace Labb2Arv
 
         }
 
+        public override void StartEngine()
+        {
+            Console.WriteLine($"Bilen ({vehicleType}) startar: Vroom vroom Vrim Vrim!");
+        }
+
 
 
     }

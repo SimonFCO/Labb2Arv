@@ -17,11 +17,12 @@
             Console.WriteLine();
 
             QuadcarClass.vehicleInfo();
-            QuadcarClass.startEngine();
+            QuadcarClass.StartEngine();
             QuadcarClass.IsItStolen();
             QuadcarClass.IsItStolen();
             QuadcarClass.IsItStolen();
             QuadcarClass.StopEngine();
+            QuadcarClass.ParkCar();
             QuadcarClass.SellCar();
 
             Console.WriteLine();
@@ -29,11 +30,12 @@
             Console.WriteLine();
 
             ExcevatorClass.vehicleInfo();
-            ExcevatorClass.startEngine();
+            ExcevatorClass.StartEngine();
             ExcevatorClass.DigDirt();
             ExcevatorClass.DigDirt();
             ExcevatorClass.DigDirt();
             ExcevatorClass.StopEngine();
+            ExcevatorClass.ParkCar();
             ExcevatorClass.SellCar();
 
             Console.WriteLine();
@@ -41,11 +43,12 @@
             Console.WriteLine();
 
             HelicopterClass.vehicleInfo();
-            HelicopterClass.startEngine();
+            HelicopterClass.StartEngine();
             HelicopterClass.GetPassenger();
             HelicopterClass.GetPassenger();
             HelicopterClass.DropOffPassenger();
             HelicopterClass.StopEngine();
+            HelicopterClass.ParkCar();
             HelicopterClass.SellCar();
 
             Console.WriteLine();
@@ -53,9 +56,10 @@
             Console.WriteLine();
 
             BoringCarClass.vehicleInfo();
-            BoringCarClass.startEngine();
+            BoringCarClass.StartEngine();
             BoringCarClass.DriveCar();
             BoringCarClass.StopEngine();
+            BoringCarClass.ParkCar();
             BoringCarClass.SellCar();
 
             Console.WriteLine();
@@ -63,12 +67,13 @@
             Console.WriteLine();
 
             DecentlyBoringCarClass.vehicleInfo();
-            DecentlyBoringCarClass.startEngine();
+            DecentlyBoringCarClass.StartEngine();
             DecentlyBoringCarClass.CleanCar();
             DecentlyBoringCarClass.CleanCar();
             DecentlyBoringCarClass.CleanCar();
             DecentlyBoringCarClass.DriveCar();
             DecentlyBoringCarClass.StopEngine();
+            DecentlyBoringCarClass.ParkCar();
             DecentlyBoringCarClass.SellCar();
 
             Console.WriteLine();
@@ -76,12 +81,13 @@
             Console.WriteLine();
 
             SlightlyLessBoringCarClass.vehicleInfo();
-            SlightlyLessBoringCarClass.startEngine();
+            SlightlyLessBoringCarClass.StartEngine();
             SlightlyLessBoringCarClass.LookCool();
             SlightlyLessBoringCarClass.LookCool();
             SlightlyLessBoringCarClass.LookCool();
             SlightlyLessBoringCarClass.DriveCar();
             SlightlyLessBoringCarClass.StopEngine();
+            SlightlyLessBoringCarClass.ParkCar();
             SlightlyLessBoringCarClass.SellCar();
 
         }

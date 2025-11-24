@@ -28,9 +28,14 @@ namespace Labb2Arv
         }
 
         //This will just write to console how the engine sounds
-        public void startEngine()
+        public virtual void StartEngine()
         {
             Console.WriteLine($"You Start The Engine:{vehicleEngineSound}");
+        }
+
+        public void ParkCar()
+        {
+            Console.WriteLine($"The {vehicleType} has parked");
         }
 
         public void StopEngine()
