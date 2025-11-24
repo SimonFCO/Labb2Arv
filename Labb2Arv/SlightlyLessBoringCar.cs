@@ -19,5 +19,10 @@ namespace Labb2Arv
             coolScore += 1;
             Console.WriteLine($"The {vehicleBrand} Begins To Look Cool | Cool Score:{coolScore}");
         }
+
+        public override void StartEngine()
+        {
+            Console.WriteLine($"Bilen ({vehicleType}) startar: Vrom Vrim Vram!");
+        }
     }
 }

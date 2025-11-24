@@ -45,5 +45,10 @@ namespace Labb2Arv
             
             
         }
+
+        public override void StartEngine()
+        {
+            Console.WriteLine($"Helikoptern startar: Schwoo Scwhoo Schwoo Schwoo!");
+        }
     }
 }

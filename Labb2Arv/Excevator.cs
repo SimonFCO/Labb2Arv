@@ -20,5 +20,9 @@ namespace Labb2Arv
             Console.WriteLine($"You succesfully digged some dirt \n You know have {dirtDigged}");
             
         }
+        public override void StartEngine()
+        {
+            Console.WriteLine($"Bilen ({vehicleType}) startar: BRUM BRUM BRUM BRUM!");
+        }
     }
 }
